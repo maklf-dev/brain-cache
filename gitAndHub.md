@@ -30,8 +30,8 @@
 - `git pull` : gets the latest GitHub version and update local version with it
 - `git restore` : discards unstaged changes
     - `git restore --staged <fileName>`: use it after staging, but before commit for recovery
-- `git commit --amed -m "<newCommit>`: change the commit
-- `git commit --amed --no-edit`: add the staged file into the previous commit whit the same message
+- `git commit --amend -m "<newCommit>`: change the commit
+- `git commit --amend --no-edit`: add the staged file into the previous commit whit the same message
 - `git revert`
     - `git revert HEAD` : prev commit exists, but new commit cancels it
 - `git reset`
@@ -88,8 +88,8 @@
 | not sure yet! | `git status` \| `git diff` \| `git log` | 
 | file changed but not staged | `git restore` | 
 | file staged but not commited | `git restore --staged` |
-| file commited but not pushed | `git commit --amed -m "<newCommit>"` |
-| file commited but need to add file to the same commit | `git commit --amed --no-edit` |
+| file commited but not pushed | `git commit --amend -m "<newCommit>"` |
+| file commited but need to add file to the same commit | `git commit --amend --no-edit` |
 | file commited and push but need to recover | `git revert` |
 
 
