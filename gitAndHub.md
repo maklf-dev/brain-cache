@@ -28,15 +28,19 @@
     - `git branch -d <branchName>` : remove branch
 - `git merge <branchName>` : merge `<branchName>` with current branch
 - `git pull` : gets the latest GitHub version and update local version with it
-- `git restore` : discards unstaged changes
-    - `git restore --staged <fileName>`: use it after staging, but before commit for recovery
+- `git restore` : discards unstaged changes; recovers the last commited version
+    - `git restore --staged <fileName>`: use it after staging, but before commit for recovery; undo the staging
 - `git commit --amend -m "<newCommit>`: change the commit
 - `git commit --amend --no-edit`: add the staged file into the previous commit whit the same message
-- `git revert`
-    - `git revert HEAD` : prev commit exists, but new commit cancels it
-- `git reset`
-    - `git reset --soft`
-    - `git reset --mixed`
+- `git revert` : creats a new commit that reverses the old one
+    - `git revert HEAD` : prev commit exists, but new commit cancels it; recover the version before last comited version
+- `git reset` : for recover the prev version
+    - `git reset --soft` : undo the last commit to staged step; last commitd version turn to staged version
+    - `git reset --mixed` (defualt; === `git reset`) : undo the last commit to unsated step; remove commit and stage but keeps the file changes 
+-git stash
+    - `git stash push -m ""` : save and add commit temprary; safe for moving between branches at the middle of work
+    - `git stash list` : lists the stashed files
+    - `git stash pop` : restores latest stash
     -  __~~`git reset --hard`~~__
 - __~~`git  clean --fd`~~__
 
@@ -98,6 +102,5 @@
   - *https://www.youtube.com/watch?v=Ala6PHlYjmw*
 - **📺 Git Tutorial For Dummies - Nick White**
   - *https://www.youtube.com/watch?v=mJ-qvsxPHpY*
-- **🔗 md editor**
-  - *https://md2file.com/editor/*
-
+- **🧠 AI**
+    - *https://chatgpt.com/*
