@@ -104,9 +104,6 @@
 
 ## Sorces
 
-- **📺 Git Will Finally Make Sense After This - LearnThatStack**
-  - *https://www.youtube.com/watch?v=Ala6PHlYjmw*
-- **📺 Git Tutorial For Dummies - Nick White**
-  - *https://www.youtube.com/watch?v=mJ-qvsxPHpY*
-- **🧠 AI**
-    - *https://chatgpt.com/*
+- [**📺 Git Will Finally Make Sense After This - LearnThatStack**](https://www.youtube.com/watch?v=Ala6PHlYjmw)
+- [**📺 Git Tutorial For Dummies - Nick White**](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
+- [**🧠 AI**](https://chatgpt.com/)
