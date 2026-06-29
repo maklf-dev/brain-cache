@@ -20,7 +20,7 @@ var user = [
 }
 ```
 - *JavaScript Object* is data inside JS memory, but *JSON* is a text format to **store** or **transform** data.
-- **Note** that in JSON, keys need double quotes but in js object, they don't.
+- **Note** that in JSON, keys are *string* and need double quotes but in js object, they're not.
 
 ## Usage
 
@@ -60,3 +60,28 @@ var user = [
   "discount": null
 }
 ```
+
+## Working With JSON
+
+- read it
+- loop it
+- search it
+- add/update/delete it
+- transform it
+- render it
+- save it
+- load it
+- send it to server
+- receive it from server
+
+## Randoms
+
+- almost all programming languages has some form of library or built-in functionality to parse JSON
+
+## JSON in JS
+
+> [Function and helpers for JSON in JS](json-momoa_funcs.md)
+
+## Sorces
+- [**📺 Learn JSON in 10 Minutes - Web Dev Simplified**](https://www.youtube.com/watch?v=iiADhChRriM)
+- [**🧠 AI**](https://chatgpt.com/)
