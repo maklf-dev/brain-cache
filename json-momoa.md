@@ -2,7 +2,7 @@
 # JSON
 
 ## What is JSON
-a text that represents data; a data message.
+**J**ava**S**cript **O**bject **N**otation. a text that represents data; a data message.
 
 **JavaScript Object:**
 ```
@@ -31,7 +31,20 @@ var user = [
 5. Configuration files
 6. Translations
 
-## Syntax Validation
+## Syntax & Validation
+
+```
+{
+    "key1": value,
+    "key2": value
+}
+```
+
+> , for seperation key-value pairs
+
+> } for determines objecs
+
+> ] for determines arrays
 
 | Type | Example |
 | --- | --- |
@@ -77,6 +90,12 @@ var user = [
 ## Randoms
 
 - almost all programming languages has some form of library or built-in functionality to parse JSON
+- popularity reasons:
+    - Begiiner-friendly for write/read
+    - Lighweight and easy to parse
+    - Compact
+    - Self-describing and readability
+    - Server side rendring and responsiveness
 
 ## JSON in JS
 
@@ -84,4 +103,5 @@ var user = [
 
 ## Sorces
 - [**📺 Learn JSON in 10 Minutes - Web Dev Simplified**](https://www.youtube.com/watch?v=iiADhChRriM)
+- [**📺 What is JSON? (Explained in 5 minutes - Hostinger Academy)**](https://www.youtube.com/watch?v=cj3h3Fb10QY)
 - [**🧠 AI**](https://chatgpt.com/)
