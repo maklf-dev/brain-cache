@@ -1,3 +1,5 @@
+# git
+
 ## Commands:
 
 - `pwd` : print working directory 
@@ -45,6 +47,7 @@
 - __~~`git  clean --fd`~~__
 
 ## Terms:
+
 - **Working Directory** : project main folder
 - **Staging Area** : files that get tracked
 - **Commit History** : changes history
@@ -74,10 +77,12 @@
 
 
 ## Notes:
+
 - *Git flow: edit -> status -> diff -> add -> commit -> branch -> merge -> push*
 - **Do NOT run recovery commands on main branch**
 
 ## Explanations
+
 - **main** : The live, final trusted version
 - **other branches** : for work on something safely in project, without ruin the real version
     > when you want to add something to your project, you firts make a branch;then you change what ever you want on that version, without any harm to your real project when all your changes are done, and your test passed, you can safely merge that branch to main
@@ -97,7 +102,8 @@
 | file commited and push but need to recover | `git revert` |
 
 
-### Sorces
+## Sorces
+
 - **📺 Git Will Finally Make Sense After This - LearnThatStack**
   - *https://www.youtube.com/watch?v=Ala6PHlYjmw*
 - **📺 Git Tutorial For Dummies - Nick White**
