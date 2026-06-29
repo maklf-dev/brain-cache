@@ -1,1 +1,3 @@
 # too soon, still under constroction ...
+
+> [Have fun here for now](json-momoa.md)
