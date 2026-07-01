@@ -52,6 +52,9 @@
 - **Staging Area** : files that get tracked
 - **Commit History** : changes history
 - **Initialized/Reinitialized** : start a repository
+- **gitignore** : to create a file that ignores some dir or files
+    1. just by running `touch .gitignore` create the file
+    2. inside it, just type the name of the file or folders you want to get ignored 
 - **Untracked** : file is NOT tracking by git
 - **commit** : explanation about each checkpoint
 - **modified** : has changed
