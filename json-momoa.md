@@ -5,7 +5,7 @@
 **J**ava**S**cript **O**bject **N**otation. a text that represents data; a data message.
 
 **JavaScript Object:**
-```
+```js
 var user = [
     name: "Json",
     age: -13
@@ -13,7 +13,7 @@ var user = [
 ```
 
 **JSON:**
-```
+```json
 {
     "name": "Json",
     "age": -13
@@ -33,7 +33,7 @@ var user = [
 
 ## Syntax & Validation
 
-```
+```json
 {
     "key1": value,
     "key2": value
@@ -59,7 +59,7 @@ var user = [
 
 ### Valid Example:
 
-```
+```json
 {
   "id": 1,
   "title": "Gold Ring",
