@@ -40,9 +40,9 @@ var user = [
 }
 ```
 
-> , for seperation key-value pairs
+> , for separation key-value pairs
 
-> } for determines objecs
+> } for determines objects
 
 > ] for determines arrays
 
@@ -91,11 +91,11 @@ var user = [
 
 - almost all programming languages has some form of library or built-in functionality to parse JSON
 - popularity reasons:
-    - Begiiner-friendly for write/read
-    - Lighweight and easy to parse
+    - Beginner-friendly for write/read
+    - Lightweight and easy to parse
     - Compact
     - Self-describing and readability
-    - Server side rendring and responsiveness
+    - Server side rendering and responsiveness
 
 ## JSON in JS
 
