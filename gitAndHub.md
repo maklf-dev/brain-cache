@@ -105,7 +105,7 @@
 | file commited and push but need to recover | `git revert` |
 
 
-## Sorces
+## Source 
 
 - [**📺 Git Will Finally Make Sense After This - LearnThatStack**](https://www.youtube.com/watch?v=Ala6PHlYjmw)
 - [**📺 Git Tutorial For Dummies - Nick White**](https://www.youtube.com/watch?v=mJ-qvsxPHpY)

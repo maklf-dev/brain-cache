@@ -101,7 +101,7 @@ var user = [
 
 > [Function and helpers for JSON in JS](json-momoa_funcs.md)
 
-## Sorces
+## Source
 - [**📺 Learn JSON in 10 Minutes - Web Dev Simplified**](https://www.youtube.com/watch?v=iiADhChRriM)
 - [**📺 What is JSON? (Explained in 5 minutes - Hostinger Academy)**](https://www.youtube.com/watch?v=cj3h3Fb10QY)
 - [**🧠 AI**](https://chatgpt.com/)
